@@ -4,4 +4,6 @@ Tristan Crawford
 
 2. Big-O describes growth rates put into size scales, it ignores constant factors, memory access patterns and more. Two O(n log n) algorithms can have very distant constants.
 
-3. Sorts all rely on comparing elements with "<" if left
+3. Sorts all rely on comparing elements with "<" if left[left_index] < right[right_index], or quickshorts if 1st[i] < pivot.
+
+4. phytons built in sort() is implemented in C and runs as compiled machine code ina tight loop, which is a different execution model.
