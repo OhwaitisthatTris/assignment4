@@ -1,0 +1,7 @@
+Tristan Crawford
+
+1.  Selection sort does at most, one swap per pass, bubble sort does a swap of three things: temp storage + two moves.
+
+2. Big-O describes growth rates put into size scales, it ignores constant factors, memory access patterns and more. Two O(n log n) algorithms can have very distant constants.
+
+3. Sorts all rely on comparing elements with "<" if left
